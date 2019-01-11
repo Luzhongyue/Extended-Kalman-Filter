@@ -4,6 +4,8 @@
 #include "json.hpp"
 #include "FusionEKF.h"
 #include "tools.h"
+#include "measurement_package.h"
+#include "Eigen/Dense"
 
 using Eigen::MatrixXd;
 using Eigen::VectorXd;
