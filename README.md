@@ -61,10 +61,10 @@ OUTPUT: values provided by the c++ program to the simulator
 
 ## File structure
 * scr:a directory with the project code:
-  1.main.cpp - communicates with the 2 Simulator receiving data measurements, calls a function to run the Kalman filter, calls a             function to calculate RMSE
-  2.FusionEKF.cpp - initializes the filter, calls the predict function, calls the update function
-  3.kalman_filter.cpp- defines the predict function, the update function for lidar, and the update function for radar
-  4.tools.cpp- function to calculate RMSE and the Jacobian matrix
+      * main.cpp - communicates with the 2 Simulator receiving data measurements, calls a function to run the Kalman filter, calls a             function to calculate RMSE
+      * FusionEKF.cpp - initializes the filter, calls the predict function, calls the update function
+      * kalman_filter.cpp- defines the predict function, the update function for lidar, and the update function for radar
+      * tools.cpp- function to calculate RMSE and the Jacobian matrix
 * data:a directory with two input files, provided by Udacity
 * Docs:a directory with files formats description
 
