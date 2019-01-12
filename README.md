@@ -66,11 +66,16 @@ OUTPUT: values provided by the c++ program to the simulator
        3. kalman_filter.cpp- defines the predict function, the update function for lidar, and the update function for radar\
        4. tools.cpp- function to calculate RMSE and the Jacobian matrix
 * data:a directory with two input files, provided by Udacity
-* Docs:a directory with files formats description
+* Docs:contains details about the structure of the code templates
+* CMakeLists.txt: a file will be used when compiling the codes 
 
 ## Results
+Lidar measurements are red circles, radar measurements are blue circles with an arrow pointing in the direction of the observed angle, and estimation markers are green triangles. 
 
-### Data set1
+### Dataset1
+### Dataset2
+
+
 
 
 
