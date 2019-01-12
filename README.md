@@ -81,7 +81,7 @@ Lidar measurements are red circles, radar measurements are blue circles with an 
 ## Overview of a Kalman Filter: Initialize, Predict, Update
 
 * initializing Kalman filter variables
-* predicting where our object is going to be after a time step \Delta{t}Δt
+* predicting where our object is going to be after a time step Δt
 * updating where our object is based on sensor measurement
 
 Then the prediction and update steps repeat themselves in a loop.
@@ -102,8 +102,8 @@ These three steps (initialize, predict, update) plus calculating RMSE encapsulat
 
 * first measurement - the filter will receive initial measurements of the bicycle's position relative to the car. These measurements                           will come from a radar or lidar sensor.
 * initialize state and covariance matrices - the filter will initialize the bicycle's position based on the first measurement.
-* then the car will receive another sensor measurement after a time period \Delta{t}Δt.
-* predict - the algorithm will predict where the bicycle will be after time \Delta{t}Δt. One basic way to predict the bicycle location               after \Delta{t}Δt is to assume the bicycle's velocity is constant; thus the bicycle will have moved velocity * \Delta{t}Δt.             In the extended Kalman filter lesson, we will assume the velocity is constant.
+* then the car will receive another sensor measurement after a time period \Δt.
+* predict - the algorithm will predict where the bicycle will be after time \Delta{t}Δt. One basic way to predict the bicycle location               after Δt is to assume the bicycle's velocity is constant; thus the bicycle will have moved velocity * Δt.             In the             extended Kalman filter lesson, we will assume the velocity is constant.
 * update - the filter compares the "predicted" location with what the sensor measurement says. The predicted location and the measured              location are combined to give an updated location. The Kalman filter will put more weight on either the predicted location or            the measured location depending on the uncertainty of each value.
 * then the car will receive another sensor measurement after a time period \Delta{t}Δt. The algorithm then does another predict and       update step.
 
