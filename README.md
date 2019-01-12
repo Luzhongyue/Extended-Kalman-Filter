@@ -70,11 +70,21 @@ OUTPUT: values provided by the c++ program to the simulator
 * CMakeLists.txt: a file will be used when compiling the codes 
 
 ## Results
+
 Lidar measurements are red circles, radar measurements are blue circles with an arrow pointing in the direction of the observed angle, and estimation markers are green triangles. 
 
 ### Dataset1
 ### Dataset2
 
+## Overview of a Kalman Filter: Initialize, Predict, Update
+
+* initializing Kalman filter variables
+* predicting where our object is going to be after a time step \Delta{t}Δt
+* updating where our object is based on sensor measurement
+
+Then the prediction and update steps repeat themselves in a loop.
+To measure how well the Kalman filter performs, we will then calculate root mean squared error comparing the Kalman filter results with the provided ground truth.
+These three steps (initialize, predict, update) plus calculating RMSE encapsulate the entire extended Kalman filter project.
 
 
 
