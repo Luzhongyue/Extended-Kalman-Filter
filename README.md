@@ -76,6 +76,7 @@ Lidar measurements are red circles, radar measurements are blue circles with an 
 ### Dataset1
 ![](https://github.com/Luzhongyue/Extended-Kalman-Filter/blob/master/image/Dataset1.png)
 ### Dataset2
+![](https://github.com/Luzhongyue/Extended-Kalman-Filter/blob/master/image/Dataset2.png)
 
 ## Overview of a Kalman Filter: Initialize, Predict, Update
 
@@ -87,6 +88,19 @@ Then the prediction and update steps repeat themselves in a loop.
 To measure how well the Kalman filter performs, we will then calculate root mean squared error comparing the Kalman filter results with the provided ground truth.
 These three steps (initialize, predict, update) plus calculating RMSE encapsulate the entire extended Kalman filter project.
 
+### LIDAR
 
+![](https://github.com/Luzhongyue/Extended-Kalman-Filter/blob/master/image/Lidar.png)
 
+### RADAR
+
+![](https://github.com/Luzhongyue/Extended-Kalman-Filter/blob/master/image/Rader.png)
+
+### How does the EKF work
+
+![](https://github.com/Luzhongyue/Extended-Kalman-Filter/blob/master/image/EKF_work.png)
+
+### EKF vs KF 
+
+![](https://github.com/Luzhongyue/Extended-Kalman-Filter/blob/master/image/EKFvsKF.png)
 
