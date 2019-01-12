@@ -1,6 +1,6 @@
 # Vehicle tracking with Extended Kalman Filter 
 
-# Extended Kalman Filter Project Starter Code
+## Extended Kalman Filter Project Starter Code
 
 This project utilizes a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. 
 
